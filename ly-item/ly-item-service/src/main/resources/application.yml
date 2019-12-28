@@ -1,0 +1,24 @@
+server:
+  port: 8081
+spring:
+  rabbitmq:
+    host: 
+    username: 
+    password: 
+    virtual-host: /leyou
+    template:
+      exchange: leyou.item.exchange
+    publisher-confirms: true
+
+  application:
+    name: item-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/leyou02?useSSL=false
+    username: root
+    password: 123zxc..
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka

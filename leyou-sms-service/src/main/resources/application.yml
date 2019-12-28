@@ -1,0 +1,16 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 
+    username: 
+    password: 
+    virtual-host: /leyou
+leyou:
+  sms:
+    appid: 1400261767 # 你自己的accessKeyId
+    appkey: 096f6b00c1bf3f9d12df022b37e7749d  # 你自己的appkey
+    smsSign: ynudyccn # 签名名称
+    templateId: 490690 # 模板id
