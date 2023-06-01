@@ -4,6 +4,7 @@ import lombok.Data;
 
 /**
  * 载荷对象
+ * @author ycdong
  */
 @Data
 public class UserInfo {
